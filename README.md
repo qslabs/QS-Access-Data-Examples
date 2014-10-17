@@ -1,6 +1,4 @@
 ## QS-Access-Data-Examples
-=======================
-
 If you don't have any HealthKit data to work with, or just want to play with some example data we've created a few files that you can use as examples. Download the included files to get a sense of how QS Access data tables are formatted. 
 
 
