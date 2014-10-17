@@ -1,15 +1,16 @@
-QS-Access-Data-Examples
+## QS-Access-Data-Examples
 =======================
 
-If you don't have any HealthKit data to work with, or just want to play with some example data we've created a few files that you can use as examples. Download the files below from our GitHub account and make sure to read the documentation to understand where the data is coming from. 
+If you don't have any HealthKit data to work with, or just want to play with some example data we've created a few files that you can use as examples. Download the included files to get a sense of how QS Access data tables are formatted. 
 
-Example Data:
-ER_HealthKit_DailyData (https://github.com/qslabs/QS-Access-Data-Examples/blob/master/ER_HealthKit_DailyData.csv)
-ER_HealthKit_HourlyData (https://github.com/qslabs/QS-Access-Data-Examples/blob/master/ER_HealthKit_HourlyData.csv)
 
-Connected Apps for this data: 
-Withings
+## Hourly vs Daily Data
+Each time you create a table, you can chose to work with either hourly or daily values. QS Access does some processing to HealthKit data so that it can be accessed in convenient “chunks” for analysis. These won't be appropriate for all uses, but many interesting questions can be asked of data that is presented as a time series using hourly and/or daily values.
 
+## Connected Apps for this Data: 
+The following applications were connected to HealthKit. Each bulleted item was set to “write” to HealthKit. 
+
+**Withings**
 * Active Calories
 * Body Fat Percentage
 * Body Mass Index
@@ -19,28 +20,24 @@ Withings
 * Walking+Running Distance
 * Weight
 
-iSmoothRun
-
+**iSmoothRun**
 * Active Calories
 * Cycling Distance
 * Walking+Running Distance
 * Weight
 * Workouts
 
-Misfit (intermittent)
-
+**Misfit (intermittent)**
 * Steps
 
-MyFitnessPal (only one data entry)
+**MyFitnessPal (only one data entry)**
+* Dietary Data
 
-
-SleepCycle
-
+**SleepCycle**
 * Heart Rate
-* Sleep Analysis
+* Sleep Analysis _(Not currently available in QS Access)_
 
-Strava
-
+**Strava**
 * Active Calories
 * Cycling Distance
 * Walking+Running Distance
